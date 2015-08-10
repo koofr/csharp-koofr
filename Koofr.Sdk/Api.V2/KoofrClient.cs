@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Koofr.Sdk.Api.V2.Resources;
-using Koofr.Sdk.Api.V2.Transfer;
 using Koofr.Sdk.Api.V2.Util;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
@@ -33,7 +32,7 @@ namespace Koofr.Sdk.Api.V2
             _client = client;
         }
 
-        public string AuthToken { private get; set; }
+        public string AuthToken { get; set; }
 
         public async Task<bool> Authenticate(string username, string password)
         {
