@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Koofr.SDK</id>
+    <version>1.0.0</version>
+    <authors>Luka Zakrajšek</authors>
+    <owners>Luka Zakrajšek</owners>
+    <licenseUrl>https://raw.githubusercontent.com/koofr/csharp-koofr/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/koofr/csharp-koofr</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Koofr C# SDK</description>
+    <releaseNotes>Koofr C# SDK</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.2" />
+    </dependencies>
+  </metadata>
+</package>

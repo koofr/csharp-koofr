@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koofr.Sdk", "Koofr.Sdk\Koofr.Sdk.csproj", "{37A71CB2-0DA8-422B-89D7-0940E5698CC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koofr.SDK", "Koofr.SDK\Koofr.SDK.csproj", "{37A71CB2-0DA8-422B-89D7-0940E5698CC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoofrDemo.WindowsPhone", "KoofrDemo.WindowsPhone\KoofrDemo.WindowsPhone.csproj", "{9A26DEDF-B8EF-48D5-B36E-B70139306C8C}"
 EndProject
