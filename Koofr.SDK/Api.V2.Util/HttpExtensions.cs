@@ -9,7 +9,7 @@ namespace Koofr.Sdk.Api.V2.Util
     {
         public static Uri AddQueryParams(this Uri uri, Dictionary<string, string> queryParams)
         {
-            if (queryParams.Count < 1) return null;
+            if (queryParams.Count < 1) return new UriBuilder(uri).Uri;
 
             var ub = new UriBuilder(uri);
 
